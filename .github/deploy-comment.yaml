@@ -16,7 +16,3 @@ jobs:
 
       - name: Deploy
         run: echo "Deploying your app because the manager said the magic word deployyy"
-
-
-
-        
