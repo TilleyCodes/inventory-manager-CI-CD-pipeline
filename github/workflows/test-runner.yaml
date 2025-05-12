@@ -13,15 +13,15 @@ jobs:
     steps:
       - name: Checkout Frontend code
         uses: actions/checkout@v4.2.2
-        with: 
+        with:
           repository: TilleyCodes/inventory-manager-frontend
-
+      
       - name: Install dependencies
-        run: npm Install
-
+        run: npm install
+      
       - name: Run tests
         run: npm run test
-
+  
   backend-tests:
       name: Run Backend Tests
       runs-on: ubuntu-latest
