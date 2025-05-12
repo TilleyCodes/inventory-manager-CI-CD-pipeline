@@ -10,7 +10,7 @@ jobs:
   auto_deploy:
     if: ${{github.event.workflow_run.conclusion == 'success' }}
     
-    runs-on: ubunu-latest
+    runs-on: ubutu-latest
     
     steps:
       - name: Checkout code
